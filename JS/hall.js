@@ -1,4 +1,4 @@
-let chosenData = JSON.parse(sessionStorage.session);
+ let chosenData = JSON.parse(sessionStorage.session);
 let updateRequest = `event=get_hallConfig&timestamp=${chosenData.timestamp}&hallId=${chosenData.hallId}&seanceId=${chosenData.seanceId}`;
 console.log(chosenData.timestamp)
 let buyingInfoTitle = document.querySelector('.buying__info-title');
